@@ -1,0 +1,25 @@
+product-card {
+    --primary-background: #e45767;
+  }
+  product-card:nth-of-type(2) {
+    --primary-background: #81d3ff;
+  }
+  product-card:nth-of-type(3) {
+    --primary-background: #e827c0;
+  }
+  product-card:nth-of-type(4) {
+    --primary-background: #90a1bb;
+  }
+  .tercero {
+    --secondary-color: lime;
+  }
+  .home {
+background: #3e3d3c;
+padding: 30px;
+border-radius: 20px;
+position: fixed;
+left: 50px;
+bottom: 30px;
+color: #fff;
+text-decoration: none;
+}
