@@ -58,10 +58,10 @@ class productCard extends HTMLElement {
       }
       .container .imgBox {
           position: relative;
-          display: flex;
+          display: inline-flex;
           justify-content: center;
           width: 50%;
-          height: 100%;
+          height: auto;
           background-color: var(--primary-background);
           border-radius: 20px;
       }
@@ -79,8 +79,8 @@ class productCard extends HTMLElement {
           position: relative;
           top: 100px;
           left: -30px;
-          width: 720px;
-          height: 480px;
+          width: 100%;
+          height: auto;
           transform: rotate(-30deg);
           transition: all 0.5s ease-out;
       }
@@ -88,7 +88,7 @@ class productCard extends HTMLElement {
         transform: scale(0.8);
     }
       .container .details {
-          display: flex;
+          display: inline-flex;
           justify-content: center;
           align-items: center;
           width: 50%;
@@ -150,7 +150,6 @@ class productCard extends HTMLElement {
               text-align: center;
           }
           .container .imgBox img {
-              left: initial;
               width: 100%;
               height: auto;
               transform: rotate(0deg);
@@ -166,6 +165,14 @@ class productCard extends HTMLElement {
               max-width: 100%;
               margin-left: 0;
           }
+      }
+
+      @media (max-width: 768px) {
+        .container .imgBox img {
+          width: 255px;
+          height: 170px;
+          transform: rotate(0deg);
+      }
       }
       </style>
     `;
