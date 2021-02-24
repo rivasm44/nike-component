@@ -79,8 +79,8 @@ class productCard extends HTMLElement {
           position: relative;
           top: 100px;
           left: -30px;
-          width: 100%;
-          height: auto;
+          width: 720px;
+          height: 480px;
           transform: rotate(-30deg);
           transition: all 0.5s ease-out;
       }
