@@ -61,6 +61,7 @@ Si se requiere pasar solo un fragmento de contenido a nuestro componente se pued
           <div>
            <p>
             <slot name="parrafo"></slot>
+            
            </p>
           </div>
         </section>
@@ -136,7 +137,7 @@ customElements.define('my-element', myElement);
 
 ## Referencias
 
-[Mozilla](https://developer.mozilla.org/es/docs/Web/Web_Components#conceptos_y_uso)
-[Ciclo de vida](https://developer.mozilla.org/es/docs/Web/Web_Components/Using_custom_elements#usando_callbacks_de_ciclo_de_vida)
-[WebComponents](https://www.webcomponents.org/)
-[Custom properties](https://developer.mozilla.org/en-US/docs/Web/CSS/--*)
+- [Mozilla](https://developer.mozilla.org/es/docs/Web/Web_Components#conceptos_y_uso)
+- [Ciclo de vida](https://developer.mozilla.org/es/docs/Web/Web_Components/Using_custom_elements#usando_callbacks_de_ciclo_de_vida)
+- [WebComponents](https://www.webcomponents.org/)
+- [Custom properties](https://developer.mozilla.org/en-US/docs/Web/CSS/--*)
